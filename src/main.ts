@@ -18,6 +18,6 @@ async function bootstrap() {
   SwaggerModule.setup('api', app, document);
 
   // await app.listen(3000);
-  await app.listen(3000, '0.0.0.0');
+  await app.listen(1818, '0.0.0.0');
 }
 bootstrap();
